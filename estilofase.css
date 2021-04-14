@@ -1,0 +1,53 @@
+body{
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.texto {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-family: monospace;
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+}
+p {
+    border-radius: 10px;
+    background-color: black;
+    
+}
+.texto ul {
+    color: rgb(0, 183, 255);
+    font-size: 40px;
+    font-family: monospace;
+    text-align: center;
+    padding: 2px;
+    border-radius: 2px;
+    background-color: black;
+    margin-top: 5%;
+    
+}
+a {
+    color: rgb(0, 183, 255);
+    text-decoration: none;
+    border: 2px solid rgb(247, 247, 247);
+    padding: 6px;
+    border-radius: 10px;
+    background-color: black;
+    margin-top: 5%;
+    
+}
+a:hover {
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+}
+
+@media screen and (max-width: 425px) {
+    .texto {
+        font-size: 25px;
+    }
+    .texto ul {
+        font-size: 25px;
+    }
+}
