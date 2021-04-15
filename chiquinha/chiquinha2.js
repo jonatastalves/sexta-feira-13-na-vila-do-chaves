@@ -4,26 +4,26 @@ function personagemChaves (){
 
     while(true){
 
-    var escolha = prompt ("1 - verificar se é geléia de morango ou sangue \n 2 - sair entrando pra ver o que é enquanto grita KIKO");
+    var escolha = prompt ("1 - Levanta correndo em direção a janela para ver o que está acontecendo \n 2 - se espreita na cama com um taco de beisebol pra ver no que vai dar");
 
     if (escolha == 2){
 
         document.write(`
         <div class="texto">
-        <p>AO ENTRAR VOCÊ PERCEBE QUE O KIKO ESTA DESMAIADO NA SALA E A DONA FLORINDA SAI DA COZINHA DESESPERADAMENTE ENQUANTO SE TRANSFORMA NUMA FLORINDASOMEM PORQUE COMEU UM SANDUÍCHE DE PRESUNTO AMALDIÇOADO... O QUE VOCÊ FAZ ?</p>
+        <p>UM PALHAÇO ASSASSINO INVADE O QUARTO COM UM PIRULITO GIGANTE EM FORMA DE FOICE PARA TE ATACAR, O QUE VOCÊ FAZ?</p>
         <ul>
-        <li>1 - PEGA O SANDUÍCHE QUE CAIU DO CHÃO E MORDE UM PEDAÇO?</li>
-        <li>2 - CORRE DESESPERADAMENTE COM O SANDUICHE PEDINDO AJUDA A ALGUÉM</li>
+        <li>1 - TENTA ATACAR ELE COM O TACO DE BEISEBOL</li>
+        <li>2 - JOGA O TACO PARA DISTRAÍ-LO E PULA PELA JANELA</li>
         </ul>
-        <a href="chaves3.html">ESCOLHER</a>
+        <a href="chiquinha3.html">ESCOLHER</a>
         </div>`);
         break;
     }
 
     else if (escolha == 1){
         document.write(`<div class="texto">
-        <p>Você prova e vê que é geleia de morango</p>
-        <p>MAS ELA ESTÁ ENVENENADA E VOCÊ MORRE</p>
+        <p>Ao levantar correndo você escorrega, bate com a cabeça na cômoda e cai no chão</p>
+        <p>VOCÊ TEVE TRAUMATISMO CRANIANO E MORREU! GAME OVER!</p>
         <a href="../index.html" class="escolha">REINICIAR</a>
         </div>`);
         break;
