@@ -4,26 +4,26 @@ function personagemChaves (){
 
     while(true){
 
-    var escolha = prompt ("1 - verificar se é geléia de morango ou sangue \n 2 - sair entrando pra ver o que é enquanto grita KIKO");
+    var escolha = prompt ("1 - Entra chamando a dona clotilde para saber o que está acontecendo \n 2 - Dá a volta e entra pela janela que está aberta");
 
     if (escolha == 2){
 
         document.write(`
         <div class="texto">
-        <p>AO ENTRAR VOCÊ PERCEBE QUE O KIKO ESTA DESMAIADO NA SALA E A DONA FLORINDA SAI DA COZINHA DESESPERADAMENTE ENQUANTO SE TRANSFORMA NUMA FLORINDASOMEM PORQUE COMEU UM SANDUÍCHE DE PRESUNTO AMALDIÇOADO... O QUE VOCÊ FAZ ?</p>
+        <p>AO ENTRAR PELA JANELA, VOCÊ DÁ DE CARA COM O GATO SATANÁS SE TRANSFORMANDO EM VAMPIRO E O MESMO VEM EM SUA DIREÇÃO, O QUE VOCÊ FAZ ?</p>
         <ul>
-        <li>1 - PEGA O SANDUÍCHE QUE CAIU DO CHÃO E MORDE UM PEDAÇO?</li>
-        <li>2 - CORRE DESESPERADAMENTE COM O SANDUICHE PEDINDO AJUDA A ALGUÉM</li>
+        <li>1 - QUEBRA O PÉ DA CADEIRA E TENTA USAR COMO ESTACA PARA SE DEFENDER</li>
+        <li>2 - PULA A JANELA DE VOLTA E CORRE PARA O PÁTIO DOS FUNDOS</li>
         </ul>
-        <a href="chaves3.html">ESCOLHER</a>
+        <a href="madruga3.html">ESCOLHER</a>
         </div>`);
         break;
     }
 
     else if (escolha == 1){
         document.write(`<div class="texto">
-        <p>Você prova e vê que é geleia de morango</p>
-        <p>MAS ELA ESTÁ ENVENENADA E VOCÊ MORRE</p>
+        <p>VOCÊ ENTRA CHAMANDO A DONA CLOTILDE E ENCONTRA ELA MORTA NO SOFÁ, AO VASCULHAR O CORPO, SATANÁS, SEU GATO, SE TRANSFORMA EM VAMPIRO E PULA EM VOCÊ SUGANDO TODO SEU SANGUE</p>
+        <p>GAME OVER MADRUGUINHA!</p>
         <a href="../index.html" class="escolha">REINICIAR</a>
         </div>`);
         break;

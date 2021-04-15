@@ -4,26 +4,26 @@ function personagemChaves (){
 
     while(true){
 
-    var escolha = prompt ("1 - PEGA O SANDUÍCHE QUE CAIU DO CHÃO E MORDE UM PEDAÇO? \n 2 - CORRE DESESPERADAMENTE COM O SANDUICHE PEDINDO AJUDA A ALGUÉM");
+    var escolha = prompt ("1 - QUEBRA O PÉ DA CADEIRA E TENTA USAR COMO ESTACA PARA SE DEFENDER \n 2 - PULA A JANELA DE VOLTA E CORRE PARA O PÁTIO DOS FUNDOS");
 
     if (escolha == 2){
 
         document.write(`
         <div class="texto">
-        <p>VOCÊ CORRE DESESPERADO PARA OS FUNDOS DA VILA E ENCONTRA O SR BARRIGA MORTO DENTRO DO POÇO E TODOS SUMIRAM, AO OLHAR PRA TRÁS VE A FLORINDASOMEM PRONTA PARA TE DEVORAR, O QUE VOCÊ FAZ?</p>
+        <p>O GATO-VAMPIRO SE TRANSFORMA EM GATO NOVAMENTE PARA SE PROTEGER DO SOL E VAI ATRÁS DE VOCÊ, AO TE ENCURRALAR PERTO DO POÇO VOCÊ SÓ TEM 2 OPÇÕES!</p>
         <ul>
-        <li>1 - JOGA O SANDUICHE NA BOCA DELA NA INTENÇÃO DE DESTRAIR E TENTAR FUGIR?</li>
-        <li>2 - PEGA UM REVOLVER QUE PARECE TER UMA BALA DE PRATA DA MÃO DO SR BARRIGA E ATIRA NELA</li>
+        <li>1 - FICA ATRÁS DO POÇO E TENTA ATRAÍ-LO!</li>
+        <li>2 - POR ESTAR EM FORMA DE GATO, VOCÊ TENTA ATACA-LO</li>
         </ul>
-        <a href="chaves4.html">ESCOLHER</a>
+        <a href="madruga4.html">ESCOLHER</a>
         </div>`);
         break;
     }
 
     else if (escolha == 1){
         document.write(`<div class="texto">
-        <p>Você pega o sanduíche que caiu no chão e morde um pedaço</p>
-        <p>Se transforma em um chavesomem e luta até morrer com a florindasomem e os 2 morrem...END GAME</p>
+        <p>Você consegue quebrar o pé da cadeira e usar como estaca, porém a cadeira é de plástico que simula madeira e não de madeira verdadeira</p>
+        <p>CONSEGUE FERIR MAS NÃO MATAR, ENTÃO ELE TE ATACA E SUGA SEU SANGUE ATÉ A MORTE!</p>
         <a href="../index.html" class="escolha">REINICIAR</a>
         </div>`);
         break;
